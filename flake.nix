@@ -10,7 +10,7 @@
 	in
 	{
 		devShells.${system} = {
-			neovim = pkgs.mkShell {
+			alacritty = pkgs.mkShell {
 				name = "alacritty";
 				packages = [
 					pkgs.alacritty
