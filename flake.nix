@@ -13,6 +13,7 @@
 			alacritty = pkgs.mkShell {
 				name = "alacritty";
 				packages = [
+					pkgs.figlet
 					pkgs.alacritty
 				];
 				shellHook = ''echo "Alacrity" | figlet'';
